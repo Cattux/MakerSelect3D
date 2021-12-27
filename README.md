@@ -23,13 +23,19 @@ The screen is still the stock screen. A custom cable was created so that it coul
 | 9       | 10      | 5V             | 
 | 10      | 9       | GND            | 
 
+## Extruder
+
+A Micro Swiss All Metal Hotend is currently mounted to this printer. To prevent flexible materials from bunching up inside of the extruder, a small piece of PTFE tubing has been added to the exit side of the extruder so that the filament cannot wander.
+
 ## Bed Heater
 
 The stock bed heater is being used, but is powered through an external MOSFET. This was required when using the Melzi board, not 100% sure if it's required for the SKR but it's not hurting anything being there.
 
-## Build Plateform
+## Build Plate / Y Carriage
 
 A 220x220mm piece of glass is used for the build plate.
+
+Instead of the stock 4 point mounting system, the 2 right screws have been removed and replaced with a single screw in the middle of that edge. It is much easier to level now with only 3 leveling points. All springs have been removed; the heated plate is firmly fixed to the Y carriage with a adjustment wheel on either side of the Y carriage for easy tweaks.
 
 ## BLTouch
 
